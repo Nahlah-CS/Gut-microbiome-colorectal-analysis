@@ -2,9 +2,18 @@
 
 Exploring how the gut bacterial community shifts from a healthy colon to adenomatous polyps to colorectal cancer, using 16S rRNA sequencing data, Python, and an interactive Power BI dashboard.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nahlah-CS/Gut-microbiome-colorectalanalysis/blob/main/Gut_Microbiome_in_Colorectal_Disease.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nahlah-CS/Gut-microbiome-colorectal-analysis/blob/main/Gut_Microbiome_in_Colorectal_Disease.ipynb)
 
 ![Dashboard preview](Gut_Microbiome_Dashboard.jpg)
+
+## Data source
+
+The data come from the Kaggle dataset **[exact title]**: [Kaggle URL]
+Processed gut microbiome data (16S rRNA, DADA2 pipeline); original repository: [ColorectalCancer-Detection URL].
+License: Apache License 2.0.
+
+Note: the Kaggle description mentions 60 samples; the files used here contain 59 samples.
+The three input files are included unmodified in this repository under that license.
 
 ## Overview
 
@@ -24,11 +33,14 @@ This project analyzes bacterial DNA from 59 samples (19 healthy, 19 with adenoma
 ## Repository structure
 
 ```
-├── notebook/    Colab notebook with all code and outputs
-├── report/      Gut_Microbiome_Analysis_Report (PDF)
-├── dashboard/   Power BI file (.pbix) and PDF export
-├── images/      Dashboard preview
-└── data/        Input data notes
+├── Gut_Microbiome_in_Colorectal_Disease.ipynb   Notebook with all code and outputs
+├── Gut_Microbiome_Analysis_Report.pdf           Final report
+├── Gut_Microbiome_Dashboard.pbix                Power BI dashboard (open in Power BI Desktop)
+├── Gut_Microbiome_Dashboard.pdf / .jpg          Dashboard export and preview
+├── metadata.csv, seqtab_nochim_export.xlsx,
+│   taxa_species_export.xlsx                     Input data (see Data source)
+├── requirements.txt                             Python libraries
+└── README.md
 ```
 
 ## Methods in brief
@@ -49,7 +61,8 @@ This project analyzes bacterial DNA from 59 samples (19 healthy, 19 with adenoma
 
 ## Dashboard
 
-Built in Power BI with a layout designed in Figma. It includes sample counts, mean age, mean Shannon diversity, observed ASVs, a PCoA map, top genera, genera that differ between groups, and rarefaction curves, with filters for disease status, sex, and age. Open `dashboard/Gut_Microbiome_Dashboard.pbix` in Power BI Desktop (Windows).
+Built in Power BI with a layout designed in Figma. It includes sample counts, mean age, mean Shannon diversity, observed ASVs, a PCoA map, top genera, genera that differ between groups, and rarefaction curves, with filters for disease status, sex, and age.
+Open `Gut_Microbiome_Dashboard.pbix` in Power BI Desktop (Windows).
 
 ## Limitations
 
