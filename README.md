@@ -25,7 +25,7 @@ This project analyzes bacterial DNA from 59 samples (19 healthy, 19 with adenoma
 
 ```
 ├── notebook/    Colab notebook with all code and outputs
-├── report/      Final report (PDF)
+├── report/      Gut_Microbiome_Analysis_Report (PDF)
 ├── dashboard/   Power BI file (.pbix) and PDF export
 ├── images/      Dashboard preview
 └── data/        Input data notes
@@ -57,8 +57,7 @@ Small sample size (about 20 per group), a single sample per person (associations
 
 ## Author
 
-[Your name] | [LinkedIn or email, optional]
-
+Nahlah Mohammed
 ## License
 
 [MIT, or remove this section if you did not choose a license]
