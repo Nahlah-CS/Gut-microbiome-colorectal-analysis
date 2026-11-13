@@ -2,9 +2,9 @@
 
 Exploring how the gut bacterial community shifts from a healthy colon to adenomatous polyps to colorectal cancer, using 16S rRNA sequencing data, Python, and an interactive Power BI dashboard.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nahlah-CS/gut-microbiome-colorectal-analysis/blob/main/notebook/Final_Project.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nahlah-CS/Gut-microbiome-colorectalanalysis/blob/main/Gut_Microbiome_in_Colorectal_Disease.ipynb)
 
-![Dashboard preview](images/dashboard_preview.png)
+![Dashboard preview](Gut_Microbiome_Dashboard.jpg)
 
 ## Overview
 
